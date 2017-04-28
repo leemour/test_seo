@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require_relative File.join "..", "lib", "test_seo"
+
+require "jazz_fingers"
+require "pry-byebug"
+
+Pry.start TestSeo
